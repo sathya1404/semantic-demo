@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.container {
+  width: 800%;
+  height: 30px;
+}
+.primary-header{
+  position: relative;
+    z-index: 800;
+    height:70px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #fff;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.18);
+}
+.secondary-header{
+  position: relative;
+    z-index: 800;
+    height:40px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    float: left;
+    color: #fff;
+    background-color:blue;
+    }
+.logo{
+  margin: 0 auto;
+  margin-top: 10px;
+  float:left;
+  margin-bottom: 10px;
+}
+.search{
+  float:right;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.custom-menu-header{
+   height: 40px;
+   background-color: #00000000;
+   border: none;
+   width:100px;
+   color: white;
+}
+.custom-menu-header:hover{
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width:100px;
+  color: #212121;
+}
+.ui.dropdown.drop-down{
+  height: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+}
+.container-fluid{
+  background-color: teal;
+background-blend-mode: screen;
+border-radius: 0px;
+height: 300px;
+background-size: cover;
+background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-minimalist-medical-banner-image_261515.jpg);
+color: black;
+
+}
+.display-image{
+  width:100%;
+  height: auto;
+}
+.donars-list:hover{
+cursor: pointer;
+  
+}
+.register{
+  background-color: teal;
+}
+.home-secondary{
+  position: relative;
+  z-index: 800;
+  height:40px;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  float: left;
+  color: #fff;
+  background-color:white
+}
+.pic{
+ 
+    margin: 0 auto;
+    margin-top: 10px;
+    float:right;
+    margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ui.dropdown.drop-down{
+  background-color: blue;
+  border-radius: 0px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.ui.compact.menu.drop-down-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  border: none;
+  vertical-align: middle;
+}
+
+
+.ui.celled.grid.main-grid-layout {
+  box-shadow: none;
+  border: none;
+}
+
+.ui.celled.grid.main-grid-layout row{
+  border: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .ui.celled.grid>.column:not(.row), .ui.celled.grid>.row>.column{
+    box-shadow: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  .ui.celled.grid>.row {
+    width: 100%!important;
+    margin: 0;
+    padding: 0;
+     -webkit-box-shadow: none;
+    box-shadow:none 
 }
